@@ -4,6 +4,6 @@ streamlit
 numpy
 pandas
 pillow
-keras
+keras==2.3.0
 pathlib
 matplotlib
