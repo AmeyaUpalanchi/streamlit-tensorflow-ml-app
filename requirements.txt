@@ -1,4 +1,4 @@
-opencv-python
+opencv-contrib-python-headless
 tensorflow-cpu==1.15
 streamlit
 numpy
