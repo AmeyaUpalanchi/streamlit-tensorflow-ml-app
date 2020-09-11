@@ -60,6 +60,11 @@ Trained to identify 5 classes for **Disease Detection** and 24 classes for **Dis
 	streamlit run app.py
 ```
 
+## Enviornments
+
+1. This app is deployed on [Heroku](https://bot-beats-ml-app.herokuapp.com/)
+
+ **Note: The tensorflow model load into the memory and hence can be slow on heroku as compared to the local enviornment**
 
 ## Developer
 
