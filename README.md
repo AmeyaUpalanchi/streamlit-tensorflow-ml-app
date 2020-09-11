@@ -47,6 +47,13 @@ Trained to identify 5 classes for **Disease Detection** and 24 classes for **Dis
 			   - Grape___Leaf_blight_Isariopsis_Leaf_Spot
 ---
 
+
+## Usage 
+
+	1. Download required dependencies ```pip install -r requirements.txt```
+	2. Command to run program ```streamlit run app.py```
+
+
 ## Developer
 
 ### Hi there, I'm Ameya Upalanchi 
