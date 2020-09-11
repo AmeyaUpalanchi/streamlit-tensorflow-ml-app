@@ -44,14 +44,12 @@ Trained to identify 5 classes for **Disease Detection** and 24 classes for **Dis
 			   - Grape___Black_rot
 			   - Grape___Esca_Black_Measles
 			   - Grape___healthy
-			   - Grape___Leaf_blight_Isariopsis_Leaf_Spot
+			   - Grape___Leaf_blight_Isariopsis_Leaf_Spot 
 ---
 
 
 ## Usage 
-
-	1. Download required dependencies ```pip install -r requirements.txt```
-	2. Command to run program ```streamlit run app.py```
+ I am currently learning everything 
 
 
 ## Developer
