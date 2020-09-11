@@ -49,7 +49,16 @@ Trained to identify 5 classes for **Disease Detection** and 24 classes for **Dis
 
 
 ## Usage 
- I am currently learning everything 
+ 
+ 1. Install the required dependencies 
+ ```
+	pip install -r requirements.txt 
+```
+2. Command for running app 
+
+```
+	streamlit run app.py
+```
 
 
 ## Developer
