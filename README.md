@@ -63,14 +63,14 @@ Trained to identify 5 classes for **Disease Detection** and 24 classes for **Dis
 
 ## Images
 
-![alt text](./IMAGES/1.PNG  "About")
-![alt text](./IMAGES/2.PNG  "Disease Detection")
-![alt text](./IMAGES/3.PNG  "Image Upload")
-![alt text](./IMAGES/4.PNG  "Image Output")
-![alt text](./IMAGES/5.PNG  "Disease Classification")
-![alt text](./IMAGES/6.PNG  "Image Output")
-![alt text](./IMAGES/7.PNG  "Treatment information")
-![alt text](./IMAGES/8.PNG  "Treatment information")
+![alt text](./images/1.PNG  "About")
+![alt text](./images/2.PNG  "Disease Detection")
+![alt text](./images/3.PNG  "Image Upload")
+![alt text](./images/4.PNG  "Image Output")
+![alt text](./images/5.PNG  "Disease Classification")
+![alt text](./images/6.PNG  "Image Output")
+![alt text](./images/7.PNG  "Treatment information")
+![alt text](./images/8.PNG  "Treatment information")
 
 ---
 
