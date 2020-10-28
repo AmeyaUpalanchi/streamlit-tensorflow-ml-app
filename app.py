@@ -22,14 +22,14 @@ from pathlib import Path
 tf.executing_eagerly() #implemented by default in tensorflow2
 
 
-MODEL_NAME = '../object_detection/inference_graph'
-IMAGE_NAME = '../object_detection/images/out.jpg'
+MODEL_NAME = './object_detection/inference_graph'
+IMAGE_NAME = './object_detection/images/out.jpg'
 
 CWD_PATH = os.getcwd()
 
-PATH_TO_CKPT = os.path.join('../object_detection/inference_graph/frozen_inference_graph.pb')
-PATH_TO_LABELS = os.path.join('../object_detection/training/labelmap.pbtxt')
-PATH_TO_IMAGE = os.path.join('../object_detection/images/out.jpg')
+PATH_TO_CKPT = os.path.join('./object_detection/inference_graph/frozen_inference_graph.pb')
+PATH_TO_LABELS = os.path.join('./object_detection/training/labelmap.pbtxt')
+PATH_TO_IMAGE = os.path.join('./object_detection/images/out.jpg')
 
 NUM_CLASSES = 6
 
@@ -123,8 +123,8 @@ def classification():
 		  'Pepper_bell___Bacterial_spot','Pepper_bell___healthy','Potato___Early_blight','Potato___healthy','Potato___Late_blight',
 		  'Raspberry___healthy','Soybean___healthy','Squash___Powdery_mildew','Strawberry___healthy','Strawberry___Leaf_scorch']
 
-    model.load_weights("../object_classification/rps.h5") #load pretrained model
-    path = '../object_classification/images/out.jpg' # path for image to be processed
+    model.load_weights("./object_classification/rps.h5") #load pretrained model
+    path = './object_classification/images/out.jpg' # path for image to be processed
     img = image.load_img(path,target_size=(150,150))  
     x = image.img_to_array(img)
     x = np.expand_dims(x , axis=0)
@@ -158,7 +158,7 @@ def main():
         
         if image_file is not None:
             our_image = Image.open(image_file)
-            im = our_image.save('../object_detection/images/out.jpg')
+            im = our_image.save('./object_detection/images/out.jpg')
             
             if st.button('Process'):
                 st.image(in_image , use_column_width=True,channels='RGB')
@@ -172,7 +172,7 @@ def main():
 		
         if image_input is not None:
             some_image = Image.open(image_input)
-            saved_image = some_image.save('../object_classification/images/out.jpg')   
+            saved_image = some_image.save('./object_classification/images/out.jpg')   
 		
             if st.button('Classify'):
                  st.image(path,use_column_width=True)
@@ -183,7 +183,7 @@ def main():
                  st.balloons()
 	
     if enhance_type == 'Treatment' and choice=='Plant Disease':
-        data_markdown = read_markdown_file("../treatment/treatment.md")
+        data_markdown = read_markdown_file("./treatment/treatment.md")
         st.markdown(data_markdown, unsafe_allow_html=True)
 		
             
