@@ -139,6 +139,7 @@ def main():
     st.set_option('deprecation.showfileUploaderEncoding', False)
     st.markdown('<style>body{-webkit-app-region: drag;}</style>', unsafe_allow_html=True)
     st.title("Plant Disease Detection & Classification")
+    st.text("Build with Streamlit and Tensorflow")
     activities = ["About" ,"Plant Disease"]
     choice = st.sidebar.selectbox("Select Activty",activities)
     enhance_type = st.sidebar.radio("Type",["Detection","Classification","Treatment"])
@@ -185,15 +186,4 @@ def main():
     if enhance_type == 'Treatment' and choice=='Plant Disease':
         data_markdown = read_markdown_file("./treatment/treatment.md")
         st.markdown(data_markdown, unsafe_allow_html=True)
-		
-            
-hide_menu_style = """
-        <style>
-        #MainMenu {visibility: hidden;}
-		.reportview-container .main footer {visibility: hidden;}  
-        </style>
-        """
-st.markdown(hide_menu_style, unsafe_allow_html=True)
-
-
 main()
