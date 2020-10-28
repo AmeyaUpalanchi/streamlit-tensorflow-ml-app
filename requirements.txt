@@ -1,6 +1,6 @@
 opencv-contrib-python-headless
 tensorflow-cpu==1.15
-streamlit
+streamlit==0.65.2
 numpy
 pandas
 pillow
